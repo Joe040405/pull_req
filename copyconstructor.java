@@ -6,10 +6,10 @@ public class copyconstructor {
         this.fprice=fprice;
         this.fname=fname;
     }
-    copyconstructor(copyconstructor banana)
+    copyconstructor(copyconstructor grape)
     {
-        fprice=banana.fprice;
-        fname=banana.fname;
+        fprice=grape.fprice;
+        fname=grape.fname;
     }
     double showprice()
     {
